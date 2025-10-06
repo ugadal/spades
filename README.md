@@ -234,9 +234,10 @@ If you meet these requirements, you can download the [SPAdes source code](https:
 and build it with the following script:
 
 ``` bash
-
+	cd assembler
     ./spades_compile.sh
 ```
+Linux should also apt install cmake, and apt install python3-distutils-extra
 
 SPAdes will be built in the directory `./bin`. If you wish to install SPAdes into another directory, you can specify full path of destination folder by running the following command in `bash` or `sh`:
 
