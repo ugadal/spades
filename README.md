@@ -240,7 +240,8 @@ and build it with the following script:
 Unfortunate Linux Mint Users :( should also 
 
 ``` bash
-	apt install cmake, and apt install python3-distutils-extra
+	apt install cmake
+	apt install python3-distutils-extra
 ``` 
 
 SPAdes will be built in the directory `./bin`. If you wish to install SPAdes into another directory, you can specify full path of destination folder by running the following command in `bash` or `sh`:
